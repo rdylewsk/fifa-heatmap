@@ -4,19 +4,22 @@
 - September 28, 2021
 <br />
 
-Heatmap is a tool that creates a density map of passes made in particular matches of the 2018 FIFA World Cup. Given 2 teams, the program will create a JPEG heatmap of where the passes occured on the field. The program can visual passes between both teams over the entire game, as well as for a particular player provided by the user.
+Heatmap is a tool that creates a density map of passes made in a given match of the 2018 FIFA World Cup. Given 2 teams, the program will create a JPEG heatmap of where the passes occured on the field. The program can visualize passes between both teams over the entire game, as well as for a particular player provided by the user.
 
 -----
 
 ### Set Up
 Heatmap relies on several outside projects to make its magic possible and uses **curl** to download zip files for data and dependancies.
 To set up, run
+
 `sh setup.sh`
 
 To build, run
+
 `make`
 
 To build and generate 5 beautiful images, run
+
 `make run`
 
 ### Usage
@@ -34,12 +37,42 @@ Player input must be spelled exactly as it appears on program output. If there a
 All JPEG images will be sent to the folder **output_graphs** once generated.
 
 ### Examples
+Here are some interesting examples of Heatmap at work.
+
+-----
+
+Croatia vs England, Luka Modric - Midfielder (Croatia)
+
 `./heatmap Croatia England y`
+
 Input: `Luka Modrić`
 
-![image](https://user-images.githubusercontent.com/46689828/134852738-2fbfd307-7d44-4b1a-9cab-3e4035213ca5.png)
+![image](https://user-images.githubusercontent.com/46689828/134857795-ab9c93a2-e6f5-4124-9de6-52db9100268d.png)
 
+-----
+Spain vs Morocco, Munir Mohamedi - Goalkeeper (Spain) 
 
+`./heatmap Spain Morocco y`
+
+Input: `Munir Mohand Mohamedi`
+
+![image](https://user-images.githubusercontent.com/46689828/134856817-59213ced-fcc3-4803-8d8c-b8dec1769404.png)
+
+-----
+Brazil vs Mexico, Neymar Jr. - Forward (Brazil)
+
+`./heatmap Brazil Mexico y`
+
+Input: `Neymar da Silva Santos Junior`
+
+![image](https://user-images.githubusercontent.com/46689828/134856282-43fb9574-4050-4748-aa33-8869e83fd73e.png)
+
+-----
+Morocco vs Iran (All Players)
+
+`./heatmap Morocco "Iran, Islamic Republic of"`
+
+![image](https://user-images.githubusercontent.com/46689828/134856667-975e6543-c4fe-46b2-a107-e3d6c14c8dba.png)
 
 
 ### Dependancies
