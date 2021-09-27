@@ -8,7 +8,7 @@ curl -L -o data.zip https://github.com/statsbomb/open-data/archive/refs/heads/ma
 unzip data.zip
 curl -L -o json.zip https://github.com/nlohmann/json/archive/refs/heads/develop.zip
 unzip json.zip
-cd json
+cd json-develop
 make 
 cd ..
 mkdir output
