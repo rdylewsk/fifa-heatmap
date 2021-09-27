@@ -1,0 +1,66 @@
+HOME, AWAY
+-----------------
+Argentina, Croatia
+Argentina, Iceland
+Australia, Peru
+Belgium, England
+Belgium, Japan
+Belgium, Panama
+Belgium, Tunisia
+Brazil, Belgium
+Brazil, Costa Rica
+Brazil, Mexico
+Brazil, Switzerland
+Colombia, England
+Colombia, Japan
+Costa Rica, Serbia
+Croatia, Denmark
+Croatia, England
+Croatia, Nigeria
+Denmark, Australia
+Denmark, France
+Egypt, Uruguay
+England, Belgium
+England, Panama
+France, Argentina
+France, Australia
+France, Belgium
+France, Croatia
+France, Peru
+Germany, Mexico
+Germany, Sweden
+Iceland, Croatia
+Iran, Islamic Republic of, Portugal
+Iran, Islamic Republic of, Spain
+Japan, Poland
+Japan, Senegal
+Korea (South), Germany
+Korea (South), Mexico
+Mexico, Sweden
+Morocco, Iran, Islamic Republic of
+Nigeria, Argentina
+Nigeria, Iceland
+Panama, Tunisia
+Peru, Denmark
+Poland, Colombia
+Poland, Senegal
+Portugal, Morocco
+Portugal, Spain
+Russia, Croatia
+Russia, Egypt
+Russia, Saudi Arabia
+Saudi Arabia, Egypt
+Senegal, Colombia
+Serbia, Brazil
+Serbia, Switzerland
+Spain, Morocco
+Spain, Russia
+Sweden, England
+Sweden, Korea (South)
+Sweden, Switzerland
+Switzerland, Costa Rica
+Tunisia, England
+Uruguay, France
+Uruguay, Portugal
+Uruguay, Russia
+Uruguay, Saudi Arabia
