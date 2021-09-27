@@ -18,4 +18,3 @@ run: heatmap
 		./heatmap Argentina Iceland y < run_input/3.txt > temp.txt
 		./heatmap Croatia England y < run_input/4.txt > temp.txt
 		./heatmap France Croatia n
-		$(shell rm temp.txt)
