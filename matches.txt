@@ -34,8 +34,6 @@ Iran, Islamic Republic of, Portugal
 Iran, Islamic Republic of, Spain
 Japan, Poland
 Japan, Senegal
-Korea (South), Germany
-Korea (South), Mexico
 Mexico, Sweden
 Morocco, Iran, Islamic Republic of
 Nigeria, Argentina
@@ -56,7 +54,6 @@ Serbia, Switzerland
 Spain, Morocco
 Spain, Russia
 Sweden, England
-Sweden, Korea (South)
 Sweden, Switzerland
 Switzerland, Costa Rica
 Tunisia, England
