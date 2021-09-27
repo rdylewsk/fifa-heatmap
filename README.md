@@ -36,10 +36,13 @@ All JPEG images will be sent to the folder **output_graphs** once generated.
 ### Examples
 `./heatmap Croatia England y`
 Input: `Luka Modrić`
+
 ![image](https://user-images.githubusercontent.com/46689828/134852738-2fbfd307-7d44-4b1a-9cab-3e4035213ca5.png)
 
 
+
+
 ### Dependancies
--[nlohmann/json](https://github.com/nlohmann/json)
--[StatsBomb Open Data](https://github.com/statsbomb/open-data)
--Dr. Plank's Jgraph
+- [nlohmann/json](https://github.com/nlohmann/json)
+- [StatsBomb Open Data](https://github.com/statsbomb/open-data)
+- Dr. Plank's Jgraph
