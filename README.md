@@ -74,7 +74,7 @@ Morocco vs Iran (All Players)
 
 ![image](https://user-images.githubusercontent.com/46689828/134856667-975e6543-c4fe-46b2-a107-e3d6c14c8dba.png)
 
-
+-----
 ### Dependancies
 - [nlohmann/json](https://github.com/nlohmann/json)
 - [StatsBomb Open Data](https://github.com/statsbomb/open-data)
