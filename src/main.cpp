@@ -15,7 +15,7 @@ int main(int argc, char** argv){
     std::string home, away, outfile;
     bool set_player;
     if(argc < 4){
-        fprintf(stderr, "Usage: home away player(Y/N)");
+        fprintf(stderr, "Usage: home away player(Y/N)\n");
         exit(0);
     }
 
@@ -25,7 +25,6 @@ int main(int argc, char** argv){
     if(string(argv[3]).compare("y") == 0 || string(argv[3]).compare("Y") == 0) set_player = true;
     else if(string(argv[3]).compare("n") == 0 || string(argv[3]).compare("N") == 0) set_player = false;
     else{
-        cout << argv[3] << endl;
         fprintf(stderr, "Usage: (Y/N) create heatmap based on player\n");
         exit(0);
     }

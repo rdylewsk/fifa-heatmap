@@ -231,6 +231,8 @@ void MatchData::create_jgraph(std::string outfile, std::string team1, std::strin
     jgraph_file.close();
 
     char run_jgraph[300];
-    sprintf(run_jgraph, "jgraph/jgraph -P FifaHeatMap_Jgraph.jgr | ps2pdf - | convert -density 300 - -quality 100 %s-%s-heatmap.jpg", team1.c_str(), team2.c_str());
+    team1.erase(remove(team1.begin(), team1.end(), ' '), team1.end());
+    team2.erase(remove(team2.begin(), team2.end(), ' '), team2.end());
+    sprintf(run_jgraph, "jgraph/jgraph -P FifaHeatMap_Jgraph.jgr | ps2pdf - | convert -density 300 - -quality 100 output_graphs/%s-%s-heatmap.jpg", team1.c_str(), team2.c_str());
     system(run_jgraph);
 }

@@ -1,0 +1,32 @@
+Bamidele Alli - England
+Kyle Walker - England
+Raheem Shaquille Sterling - England
+John Stones - England
+Jesse Lingard - England
+Kieran Trippier - England
+Marcus Rashford - England
+Harry Maguire - England
+Jordan Pickford - England
+Jordan Brian Henderson - England
+Danny Rose - England
+Ashley Young - England
+Harry Kane - England
+Eric Dier - England
+Jamie Vardy - England
+Danijel Subašić - Croatia
+Dejan Lovren - Croatia
+Ivan Strinić - Croatia
+Andrej Kramarić - Croatia
+Šime Vrsaljko - Croatia
+Luka Modrić - Croatia
+Ante Rebić - Croatia
+Domagoj Vida - Croatia
+Marcelo Brozović - Croatia
+Ivan Rakitić - Croatia
+Mario Mandžukić - Croatia
+Ivan Perišić - Croatia
+Vedran Ćorluka - Croatia
+Milan Badelj - Croatia
+Josip Pivarić - Croatia
+
+Enter a player's name: 

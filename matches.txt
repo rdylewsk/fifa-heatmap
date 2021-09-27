@@ -1,4 +1,4 @@
-HOME, AWAY
+Home, Away
 -----------------
 Argentina, Croatia
 Argentina, Iceland

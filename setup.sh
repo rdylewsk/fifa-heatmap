@@ -11,3 +11,4 @@ unzip json.zip
 cd json
 make 
 cd ..
+mkdir output
