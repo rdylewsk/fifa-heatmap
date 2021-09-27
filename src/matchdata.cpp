@@ -23,6 +23,7 @@ double kde_quadratic(double d, float h){
 
 MatchData::MatchData(){
     player = "";
+    get_matches();
 }
 
 void MatchData::get_matches(){
@@ -31,7 +32,7 @@ void MatchData::get_matches(){
     std::ifstream ifs(filename);
     json match_json = json::parse(ifs);
     
-    // read all match data into match multimap
+    // read all match data into match multimap byt storing home/away team and match id
     for(int i=0; i<match_json.size(); i++){      
 
         std::string match_id = match_json[i]["match_id"].dump();
@@ -127,8 +128,9 @@ void MatchData::parse_pass_data(std::string game_id){
             // Get coordinates
             coordinates = event_json[i]["location"].get<std::vector<int>>();
             
-            y.push_back(coordinates[1] - 1);
-            x.push_back(coordinates[0] -1);
+            // Pitch is transposed on jgraph --> coordinates = (y,x)
+            y.push_back(coordinates[0] - 1);
+            x.push_back(coordinates[1] - 1);
         }
     }
 
@@ -180,13 +182,14 @@ void MatchData::create_densities(){
 std::string MatchData::assign_heatmap_color(int value){
     /* Assigns an rbg based on density value */
     double rbg[3] = {1, 1, 0};
-    rbg[1] = rbg[1] - (value * 0.2);
+    rbg[1] = rbg[1] - (value * 0.3);
     
-    if(rbg[1] < 0) {
+    if(rbg[1] <= 0) {
         rbg[1] = 0;
-        rbg[0] = rbg[0] - (value * 0.2);
+        rbg[0] = rbg[0] - (value * 0.3);
         rbg[2] = rbg[2] + (value * 0.05);
     }
+
 
     return std::to_string(rbg[0]) + " " + std::to_string(rbg[1]) + " " + std::to_string(rbg[2]);
 }

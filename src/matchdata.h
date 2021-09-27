@@ -23,18 +23,17 @@ class MatchData {
         std::vector<int> y;
         std::string player;
 
+        void get_players(std::string); // Gets starting lineup of match for user selection
+        void get_matches(); // Reads in all matches into matches grid
         void parse_pass_data(std::string);
         void create_densities(); // Prepares match map for jgraph
-        std::string assign_heatmap_color(int);
+        std::string assign_heatmap_color(int); // Assigns RBG values for heatmap
 
     public:
-        int id; // match id TODO delete
-
         MatchData();
-        void get_players(std::string);
-        void get_matches(); // Reads in all matches into matches grid
-        void set_game(std::string, std::string, bool);
-        void create_jgraph(std::string, std::string, std::string);
+
+        void set_game(std::string, std::string, bool); // Creates new game 
+        void create_jgraph(std::string, std::string, std::string); // Creates jgraph heatmap
 };
 
 double kde_quadratic(double d, float h);

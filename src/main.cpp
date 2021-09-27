@@ -1,6 +1,6 @@
 /*
     Racheal Dylewski
-    matchdata.cpp
+    main.cpp
     9/26/2021
 */
 #include "matchdata.h"
@@ -34,7 +34,6 @@ int main(int argc, char** argv){
 
     outfile = "FifaHeatmap.jpg";
     
-    match_data->get_matches();
     match_data->set_game(home, away, set_player);
     match_data->create_jgraph(outfile, home, away);
 
