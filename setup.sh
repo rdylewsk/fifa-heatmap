@@ -11,4 +11,4 @@ unzip json.zip
 cd json-develop
 make 
 cd ..
-mkdir output
+mkdir output_graphs
